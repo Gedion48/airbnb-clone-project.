@@ -1,118 +1,114 @@
-Airbnb Clone Project – ALX ProDev Frontend
-This project is a core part of the ALX ProDev Frontend Program. It involves creating a simplified Airbnb-style booking platform that highlights modern frontend practices, clean UI/UX, and responsiveness.
+# Airbnb Clone – ALX ProDev Frontend Project
 
-🔍 Project Overview
-Objectives
-Rebuild essential features of Airbnb (property listings, detail views, and booking flow).
+This project is part of the **ALX ProDev Frontend Program**. It aims to build a simplified version of Airbnb’s booking platform using modern frontend technologies with a strong focus on responsive design and user experience.
 
-Apply modern HTML, CSS, JavaScript, and React techniques.
+---
 
-Design a responsive and accessible interface.
+## 🌟 Project Objectives
 
-Practice collaborative development using Git and GitHub.
+- Recreate essential features of Airbnb (listings, detail views, booking flow).
+- Apply best practices in HTML, CSS, JavaScript, and React.
+- Build a responsive, accessible, and user-friendly interface.
+- Collaborate effectively using Git and GitHub.
 
-⚙️ Technology Stack
-HTML5 – Semantic page structure
+---
 
-CSS3 / SCSS – Visual styling and layout
+## ⚙️ Tech Stack
 
-JavaScript (ES6+) – Application logic and interaction
+- **HTML5** – Semantic page structure  
+- **CSS3 / SCSS** – Styling and layout  
+- **JavaScript (ES6+)** – Application logic and interactivity  
+- **React** – Component-based UI framework  
+- **Vite** – Build tool and development server  
+- **Git & GitHub** – Version control and team collaboration  
+- **Figma** – UI/UX design and prototyping
 
-React – Frontend development using components
+---
 
-Vite – Fast build tool and dev server
+## 🎨 UI/UX Design Goals
 
-Git & GitHub – Version control and collaboration
+- Create a clean, modern interface inspired by Airbnb.
+- Ensure smooth navigation for searching, viewing, and booking.
+- Prioritize mobile-first design for full responsiveness.
+- Maintain a consistent visual language throughout the app.
 
-Figma – UI/UX design and prototyping
+---
 
-🎨 UI/UX Design Goals
-Build a clean, intuitive, and modern interface inspired by Airbnb.
+## ✨ Key Features
 
-Ensure seamless navigation for browsing, viewing, and booking.
+- Property listings with dynamic search and filter options.
+- Detailed property pages with gallery, amenities, and reviews.
+- Streamlined checkout process with booking summary and payment UI.
+- Real-time feedback for actions (errors, loading, confirmations).
 
-Implement mobile-first responsive design for cross-device support.
+---
 
-Maintain design consistency in layout, colors, and typography.
+## 📄 Core Pages and Components
 
-✨ Key Features
-Dynamic Property Listings with search and filter options.
+| Page                | Description                                             | Components |
+|---------------------|---------------------------------------------------------|------------|
+| **Listings Page**   | Displays available properties with filters and search.  | Search bar, filters, property cards |
+| **Detail Page**     | Provides detailed property info and booking options.    | Image gallery, details, amenities, reviews |
+| **Checkout Page**   | Finalizes booking and processes payment.                | Summary card, date picker, payment form |
 
-Detailed Property View with gallery, descriptions, amenities, and reviews.
+---
 
-Checkout Flow including booking summary and payment interface.
+## 🎨 Design Tokens
 
-Interactive Feedback (e.g., loading indicators, errors, confirmations).
+- **Colors:**
+  - Primary: `#34967C`
+  - Secondary: `#FFA800`
+  - Accent/Dark: `#000000`
+  - Overlay: `#F6F6F65C`
+- **Font:** `Quicksand, sans-serif`
 
-📄 Core Pages and Components
-Page	Description	Key Components
-Listings Page	Shows all properties with filters and sorting options.	Search bar, filters, property cards
-Detail Page	Displays selected property info and booking options.	Image gallery, amenities, reviews, booking button
-Checkout Page	Final booking and payment steps.	Booking summary, date picker, payment form
+---
 
-🎨 Design Tokens
-Colors:
+## 🤝 Project Roles & Responsibilities
 
-Primary: #34967C
+| Role               | Responsibilities |
+|--------------------|------------------|
+| **Product Owner**   | Defines vision, prioritizes features, aligns business goals |
+| **Project Manager** | Oversees planning, execution, and communication |
+| **Scrum Master**    | Facilitates agile processes and removes blockers |
+| **Frontend Devs**   | Build UI in React, manage state, ensure responsiveness |
+| **Backend Devs** *(optional)* | Develop APIs and handle server logic |
+| **Designers**       | Create wireframes, mockups, and define UI/UX patterns |
+| **Testers/QA**      | Write and execute test cases, validate quality |
+| **DevOps**          | Set up CI/CD, handle deployment, monitor performance |
 
-Secondary: #FFA800
+---
 
-Accent/Dark: #000000
+## 🧩 UI Component Patterns
 
-Overlay: #F6F6F65C
+We are using reusable and scalable UI components:
 
-Typography:
+- **Navbar** – Site-wide navigation with responsive design
+- **Property Card** – Property previews for list/grid display
+- **Footer** – Informational links and social icons
+- **Buttons** – Consistent action buttons (primary/secondary)
+- **Search/Filter Bar** – For advanced property filtering
+- **Booking Summary** – Booking details shown at checkout
+- **Image Carousel** – Gallery for detailed property views
 
-Font Family: Quicksand, sans-serif
+> Reusable components speed up development and keep the UI consistent.
 
-🔑 Why User-Friendly Design Matters
-Minimizes friction for users to complete bookings.
+---
 
-Builds trust through clear, predictable interactions.
+## 💻 GitHub Repository
 
-Enhances accessibility for all users.
+You are here! This is the official repository for the **Airbnb Clone Project** built during the ALX ProDev Frontend track.
 
-Improves user satisfaction and conversion rates.
+---
 
-Keeps the focus on the goal: finding and booking a stay.
+## 📢 License
 
-👥 Team Roles & Responsibilities
-Role	Key Responsibilities
-Product Owner	Sets project vision, defines goals, prioritizes features.
-Project Manager	Coordinates execution, timelines, and risk management.
-Scrum Master	Facilitates agile practices and removes blockers.
-Frontend Developers	Develop UI with React, manage states, ensure responsiveness.
-Backend Developers (optional)	Create APIs, handle server-side logic and databases.
-UI/UX Designers	Design wireframes and prototypes, define visual style.
-QA/Testers	Write and run tests, ensure app functionality and quality.
-DevOps Engineers	Manage CI/CD, deployments, and performance monitoring.
+This project is licensed under the [MIT License](LICENSE).
 
-Collaboration ensures that all design, business, and technical aspects align for a successful project.
+---
 
-🧩 UI Component Patterns
-Reusable components will be developed for scalability and consistency:
+## 🙌 Credits
 
-Navbar – Branding, links, and responsive menu
+Special thanks to **ALX Africa** and the **ProDev team** for guidance and mentorship throughout the project.
 
-Property Card – Image, title, price, and location
-
-Footer – Links and social icons
-
-Buttons – For actions like submit, cancel
-
-Search/Filter Bar – Helps users find properties
-
-Booking Summary Card – Checkout booking details
-
-Image Carousel – For detailed property view
-
-Benefits:
-
-Consistent UI experience
-
-Faster page development
-
-Easier maintenance and upgrades
-
-💻 Source Code
-GitHub Repository: airbnb-clone-project
+---
